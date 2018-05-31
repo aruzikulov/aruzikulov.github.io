@@ -1,5 +1,5 @@
 #particles-js {
-  background: $main;
+  background-image: url('../img/me.jpg');
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -8,6 +8,7 @@
   background-size: cover;
   background-attachment: fixed;
   .particles-js-canvas-el {
+    vertical-align: bottom;
     width:100% !important;
     height:100vh !important;
   }
